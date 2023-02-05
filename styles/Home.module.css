@@ -18,7 +18,15 @@
   text-align: center;
 }
 
-.code {
-  font-weight: 700;
-  font-family: var(--font-mono);
+.nextDate {
+  color: var(--accent-color);
+}
+
+.linebreak {
+  padding: 2rem;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border-bottom: 1px solid var(--accent-color);
+  margin: 0 1rem;
 }

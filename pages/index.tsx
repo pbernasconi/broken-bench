@@ -7,15 +7,10 @@ export default function Home() {
     <>
       <Head>
         <title>Broken Bench</title>
-        <meta
-          name="description"
-          content="Broken Bench club, founded in San Francisco 2021"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
         <Image src={"/bench.svg"} alt="bench" width={100} height={100} />
+
         <div className={styles.center}>
           <p>
             <strong>Broken Bench</strong> is more than just a supper club, it's
@@ -37,6 +32,11 @@ export default function Home() {
             At <strong>Broken Bench</strong>, we believe life is too short for
             bland food and small talk, and we invite you to come see for
             yourself why we're much more than just a meal.
+          </p>
+        </div>
+        <div className={styles.center}>
+          <p className={styles.nextDate}>
+            Upcoming <strong>March 14</strong>
           </p>
         </div>
       </main>
