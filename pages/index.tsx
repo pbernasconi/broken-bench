@@ -12,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        <Image src={"/bench.svg"} alt="bench" width={100} height={100} />
         <div className={styles.center}>
           <p>
             <strong>Broken Bench</strong> is more than just a supper club, it's
