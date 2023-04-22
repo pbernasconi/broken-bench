@@ -36,7 +36,7 @@ export default function Home() {
         </div>
         <div className={styles.center}>
           <p className={styles.nextDate}>
-            Upcoming <strong>Saturday March 4</strong>
+            Upcoming <strong>Saturday May 13</strong>
           </p>
         </div>
       </main>
